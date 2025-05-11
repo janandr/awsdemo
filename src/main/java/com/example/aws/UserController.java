@@ -14,9 +14,9 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController
+//@RestController
 public class UserController {
-
+/*
     private final List<User> userList = new ArrayList<>();
     private Long nextId = 1L;
 
@@ -70,5 +70,5 @@ public class UserController {
             }
         }
         return ResponseEntity.notFound().build();
-    }
+    } */
 }
